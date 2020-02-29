@@ -6,7 +6,7 @@ const Calendar = () => {
       <h1>This is just a test</h1>
       <p>
         Going to test calendars and abilty to schedule and notify the propper
-        people
+        people look for either NPM module or a d3
       </p>
     </div>
   )
