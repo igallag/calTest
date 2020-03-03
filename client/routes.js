@@ -3,7 +3,7 @@ import {connect} from 'react-redux'
 import {withRouter, Route, Switch} from 'react-router-dom'
 import PropTypes from 'prop-types'
 import {Login, Signup, UserHome} from './components'
-import Calendar from './components/calendarView'
+import CalendarView from './components/calendarView'
 import {me} from './store'
 
 /**
@@ -22,7 +22,7 @@ class Routes extends Component {
         {/* Routes placed here are available to all visitors */}
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
-        <Route path="/calendar" component={Calendar} />
+        <Route path="/calendar" component={CalendarView} />
         {isLoggedIn && (
           <Switch>
             {/* Routes placed here are only available after logging in */}
