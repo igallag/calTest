@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Calendar = () => {
+const Calendar = props => {
   return (
     <div>
       <h1>This is just a test</h1>
