@@ -1,6 +1,9 @@
 import React from 'react'
 import Flatpickr from 'react-flatpickr'
 import {connect} from 'react-redux'
+// import "flatpickr/dist/themes/material_green.css";
+
+// need to figure out how to style this calendar
 
 class CalendarView extends React.Component {
   constructor() {
@@ -15,11 +18,6 @@ class CalendarView extends React.Component {
     const {date} = this.state
     return (
       <div>
-        <h1>This is just a test</h1>
-        <p>
-          Going to test calendars and abilty to schedule and notify the propper
-          people look for either NPM module or a d3
-        </p>
         <Flatpickr
           data-enable-time
           value={date}
